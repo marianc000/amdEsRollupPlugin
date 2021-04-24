@@ -1,12 +1,13 @@
 {
-  "name": "RollupPlugin",
+  "name": "ImportmapPlugin",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ImportmapPlugin",
+  "main": "plugin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "commonjs"
 }
