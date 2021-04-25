@@ -1,5 +1,5 @@
 {
-  "name": "ImportmapPlugin",
+  "name": "importmap-rollup-plugin",
   "version": "1.0.0",
   "description": "ImportmapPlugin",
   "main": "plugin.js",
@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.0"
+  }
 }
